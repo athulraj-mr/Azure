@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'normal';
+    src: url(/assets/font/normal.woff2);
+}
+
+@font-face {
+    font-family: 'semi-bold';
+    src: url(/assets/font/semi-bold.woff2);
+}
+
+@font-face {
+    font-family: 'segoe';
+    src: url(/assets/font/segoe.woff2);
+}
+
+@font-face {
+    font-family: 'font1';
+    src: url(/assets/font/MWFFluentIcons.woff2);
+}
+
+@font-face {
+    font-family: 'font2';
+    src: url(/assets/font/mwfmdl2-v3.54.woff);
+}
+
+
+@font-face {
+    font-family: "MWF";
+    src: url("https://db.onlinewebfonts.com/t/ba047a29b78bffd9a985b2e86b289fe8.eot");
+    src: url("https://db.onlinewebfonts.com/t/ba047a29b78bffd9a985b2e86b289fe8.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/ba047a29b78bffd9a985b2e86b289fe8.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/ba047a29b78bffd9a985b2e86b289fe8.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/ba047a29b78bffd9a985b2e86b289fe8.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/ba047a29b78bffd9a985b2e86b289fe8.svg#MWF MDL2 Assets")format("svg");
+}
