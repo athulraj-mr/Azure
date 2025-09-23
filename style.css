@@ -1393,6 +1393,7 @@
 
 .idea-ul1-main-a a span {
     padding-bottom: 0.125rem;
+    margin-top: 3px;
 }
 
 .idea-ul1-main-image {
@@ -4018,7 +4019,7 @@
     font-weight: 500;
     font-size: 2rem;
     line-height: 2.5rem;
-    letter-spacing: -.025rem;
+    letter-spacing: -.025em;
     margin-bottom: 0;
     margin-top: 0;
     display: block;
