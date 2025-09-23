@@ -3556,7 +3556,6 @@
     white-space: normal;
     scroll-snap-align: start;
     padding: .1875rem;
-    height: 100%;
     display: block;
 }
 
@@ -3580,6 +3579,7 @@
     flex: 0 0 100%;
     position: relative;
     width: 100%;
+    height: fit-content;
     display: block;
 }
 
@@ -3937,7 +3937,7 @@
     padding-top: 3.5rem;
     padding-bottom: 3.5rem;
     position: relative;
-    background: (255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.3);
     display: block;
 }
 
@@ -3954,13 +3954,13 @@
 
 .step-con-out {
     display: block;
-    max-width: 100%;
+    width: 100%;
 }
 
 .step-con-out img {
     object-fit: cover;
-    width: 100%;
     height: 100%;
+    width: 100%;
     vertical-align: middle;
     overflow: clip;
 }
@@ -4028,7 +4028,322 @@
     margin-top: 1.5rem;
     display: flex;
     flex-wrap: wrap;
+}
+
+.step-outer1 {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: normal;
+    padding-right: .25rem;
+    padding-left: .25rem;
+    flex-basis: 0;
+    flex-grow: 1;
+    position: relative;
+    width: 100%;
+}
+
+.step-in1 {
+    padding-top: 0;
+    padding-bottom: 0;
+    position: relative;
+    display: block;
+}
+
+.step-inner1 {
+    padding-right: 1rem;
+    padding-left: 1rem;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+
+.step-inner2 {
+    margin-top: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.step-macro {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    align-items: normal;
+    padding-right: .25rem;
+    padding-left: .25rem;
+    flex-basis: 0;
+    flex-grow: 1;
+    position: relative;
+    width: 100%;
+}
+
+.step-macro1 {
+    opacity: 1;
+    column-gap: .75rem;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: .5rem;
+}
+
+.step-card {
+    flex: 0 0 calc(calc(100% - calc(0.75rem * (1 - 1))) / 1);
+    display: block;
+}
+
+.step-card-out {
+    opacity: 1;
+    box-shadow: 0 0.125rem rgba(0, 0, 0, 0.12),0 0.125rem 0.25rem rgba(0, 0, 0, 0.14);
+    background: #fefefe;
+    border-radius: 1rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 1px;
+    word-break: break-word;
+}
+
+.step-card-outer {
+    padding: 1rem;
+    justify-content: space-between;
+    flex-direction: column;
+    position: relative;
+    display: flex;
+    flex: 1 1 auto;
+    min-width: 1px;
+    word-wrap: break-word;
+    background-clip: border-box;
+    height: 100%;
+}
+
+.step-card-in {
+    margin-bottom: auto;
+    align-items: flex-start;
+    text-align: left;
+    flex-direction: column;
+    gap: .75rem;
+    display: flex;
+}
+
+.step-card-inner {
+    align-items: flex-start;
+    text-align: left;
+    gap: .75rem;
+    flex-direction: column;
+    display: flex;
+}
+
+.step-card-macro {
+    align-items: flex-start;
+    text-align: left;
+    gap: .25rem;
+    flex-direction: column;
+    display: flex;
+}
+
+.step-card-macro-in {
+    margin-bottom: 0;
+    color: #0e1726;
+    word-break: break-word;
+    position: relative;
+    display: block;
+}
+
+.step-card-macro-in h3 {
+    margin-bottom: 0;
+    margin-top: 0;
+    display: block;
+}
+
+.step-card-macro-in h3 span {
+    font-family: segoe;
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    letter-spacing: -.01em;
+    margin-bottom: 0;
+    display: block;
+}
+
+.step-card-macro1 {
+    font-weight: 400;
+    font-family: segoe;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    letter-spacing: -.03em;
+    margin-bottom: 0;
+    color: #17253d;
+    display: block;
+}
+
+.step-card-btn {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.step-card-btn-a {
+    color: #004275;
+    font-weight: 600;
+    font-size: .875rem;
+    line-height: 1.25rem;
+    letter-spacing: normal;
+    display: inline-flex;
+    align-items: center;
+    gap: .5rem;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.step-card-btn-a-span {
+    padding: .5rem;
+    white-space: normal;
+    display: flex;
+    align-items: center;
+    gap: .25rem;
+    border: 2px solid transparent;
+    justify-content: center;
+    font-weight: 600;
+    font-size: .9375rem;
+    line-height: 1.375rem;
+    letter-spacing: -.02em;
+    background-color: #0078d4;
+    color: #fff;
+    border-radius: .5rem;
+    position: relative;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.step-card-btn-a-span span {
+    display: flex;
+    align-items: center;
+}
+
+.step-card-btn-a-span span::before {
+    content: "";
+    font-family: font1;
+    font-weight: 400;
+    line-height: 1;
+}
+
+.step-card-btn-a-span1 {
+    font-family: segoe;
+    padding-bottom: .125rem;
+}
+
+.logos {
+    display: block;
+}
+
+.logos-container {
+    margin: 0;
+    display: block;
+    background-color: #f7f7f7;
+}
+
+.logos-out {
+    background-color: #f7f7f7;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    margin-bottom: -3rem;
+    padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+
+.logos-outer {
+    display: block;
+}
+
+.logos-in {
+    padding-right: .25rem;
+    padding-left: .25rem;
+    width: 100%;
+    position: relative;
+    width: 100%;
+    display: block;
+}
+
+.logos-inner {
+    justify-content: space-between;
+    flex-direction: column;
+    display: flex;
+}
+
+.logos-macro {
+    display: flex;
+    flex-wrap: wrap;
     margin-right: -.25rem;
     margin-left: -.25rem;
 }
 
+.logos-macro-in {
+    padding-bottom: .5rem;
+    padding-top: .5rem;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    display: inline-flex;
+    flex: 0 0 100%;
+    position: relative;
+    width: 100%;
+    padding-right: .75rem;
+    padding-left: .75rem;
+}
+
+.logos-sec1 {
+    display: block;
+}
+
+.logos-sec1-out {
+    margin-left: -.5rem;
+    min-height: 2.5rem;
+    margin-top: -.5rem;
+    margin-bottom: -.5rem;
+    display: block;
+}
+
+.logos-sec1-a {
+    background-color: #e6e6e6;
+    margin-right: 0;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    white-space: normal;
+    border: 2px solid transparent;
+    padding: .75rem .75rem;
+    justify-content: center;
+    font-family: segoe;
+    font-weight: 600;
+    font-size: .9375rem;
+    line-height: 1.375rem;
+    letter-spacing: -.02em;
+    align-items: center;
+    flex-direction: row;
+    display: inline-flex;
+    border-radius: .2rem;
+    color: #000;
+    position: relative;
+    height: 53.25px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.logos-sec1-a-span img {
+    margin-right: .5rem;
+    max-width: 100%;
+    height: auto;
+    width: 24px;
+    vertical-align: middle;
+    aspect-ratio: auto 24 / 24;
+    overflow: clip;
+}
+
+.logos-sec2 {
+    
+}
