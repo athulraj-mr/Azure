@@ -4452,7 +4452,6 @@
     display: block;
     float: left;
     min-height: 1px;
-    vertical-align: text-top;
     padding: 0 12px;
     zoom: 1;
 }
@@ -4489,3 +4488,121 @@
     background-color: transparent;
     cursor: pointer;
 }
+
+.footer-end {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 30px 24px 16px;
+    background: #f2f2f2;
+    margin: 0 auto;
+    max-width: calc(1600px + 10%);
+}
+
+.footer-end::before {
+    content: " ";
+    display: table;
+}
+
+.footer-end::after {
+    clear: both;
+    content: " ";
+    display: table;
+}
+
+.footer-end-a1 {
+    float: none;
+    font-size: 11px;
+    line-height: 16px;
+    display: inline-block;
+    padding-right: 24px;
+    color: #616161;
+    white-space: nowrap;
+    width: 100%;
+    margin-right: auto;
+    text-decoration: none;
+    background-color: transparent;
+    font-style: normal;
+    cursor: pointer;
+}
+
+.footer-end-a1::before {
+    font-size: 20px;
+    line-height: 24px;
+    margin-right: 10px;
+    vertical-align: middle;
+    content: "";
+    text-decoration: none;
+    font-family: font2;
+    display: inline-block;
+}
+
+.footer-end-a2 {
+    display: flex;
+    font-size: 11px;
+    line-height: 16px;
+    padding-right: 24px;
+    padding-top: 4px;
+    color: #616161;
+    float: left;
+    width: 100%;
+    margin-right: auto;
+    text-decoration: none;
+    margin: 8px 0 16px 0;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.footer-end-a2 svg {
+    padding-right: 8px;
+    height: 16px;
+    vertical-align: middle;
+    overflow: hidden;
+}
+
+.footer-end-a3 {
+    display: flex;
+    font-size: 11px;
+    line-height: 16px;
+    padding-right: 24px;
+    padding-top: 4px;
+    color: #616161;
+    float: left;
+    width: 100%;
+    margin-right: auto;
+    text-decoration: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.footer-end-nav {
+    display: block;
+}
+
+.footer-end-nav-ul {
+    float: left;
+    width: 100%;
+    text-align: left;
+    font-size: 11px;
+    line-height: 25px;
+    margin: 6px 0;
+    margin-top: 12px;
+    color: #616161;
+    list-style: none;
+    padding: 0;
+    display: block;
+}
+
+.footer-end-nav-li {
+    padding: 6px 10px 0 0;
+    display: inline-block;
+    margin: 0;
+}
+
+.footer-end-nav-li-a {
+    text-decoration: none;
+    background-color: transparent;
+    color: #616161;
+    cursor: pointer;
+}
+
