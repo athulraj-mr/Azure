@@ -674,8 +674,13 @@
     display: block;
 }
 
-.discover-tile {
+.discover-title-parent {
     margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.discover-tile {
     display: flex;
     flex-wrap: wrap;
 }
@@ -4607,3 +4612,121 @@
     cursor: pointer;
 }
 
+/* media query start */
+
+/* media 539px */
+
+@media screen and (min-width: 539px) {
+
+    .data-container {
+        padding-right: 4rem;
+        padding-left: 4rem;
+    }
+
+    .data-btns-container {
+        display: flex;
+        flex-direction: row;
+        gap: .5rem;
+    }
+
+    .discover-news {
+        padding-right: 4rem;
+        padding-left: 4rem;
+    }
+
+    .discover-title-parent {
+        margin-left: -.25rem;
+    }
+
+    .idea-container {
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+
+    .idea-content {
+        margin-left: -.25rem;
+    }
+
+    .tools-container {
+        padding-right: 4rem;
+        padding-left: 4rem;
+    }
+
+    .tools-content {
+        margin-left: -.25rem;
+    }
+
+    .gartner-conatiner2 {
+        padding-right: 4rem;
+        padding-left: 4rem;
+    }
+
+    .gartner-inner2 {
+        margin-left: -.25rem;
+    }
+
+    .role-top-outer {
+        padding-right: 4rem;
+        padding-left: 4rem;
+    }
+
+    .role-bottom-total {
+        padding-right: 4rem;
+        padding-left: 4rem;
+    }
+
+    .global-content {
+        padding-right: 4rem;
+        padding-left: 4rem;
+    }
+
+    .global-btn-container {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .see-container1 {
+        padding-right: 4rem;
+        padding-left: 4rem;
+    }
+
+    .see-outer3 {
+        margin-left: -.25rem;
+    }
+
+    .step-container {
+        padding-right: 4rem;
+        padding-left: 4rem;
+    }
+
+    .step-out1 {
+        margin-left: -.25rem;
+    }
+
+    .step-card-inner {
+        padding-right: 24px;
+    }
+
+    .step-inner2 {
+        margin-left: -.25rem;
+    }
+
+    .logos-out {
+        padding-right: 4rem;
+        padding-left: 4rem;
+    }
+
+    .footer-nav-out1 {
+        width: 33.333%;
+    }
+
+    .footer-out {
+        padding-bottom: 0;
+    }
+
+    .footer-end-nav-li {
+        padding: 6px 4px 0 6px;
+    }
+
+
+}
