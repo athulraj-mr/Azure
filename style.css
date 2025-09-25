@@ -5725,6 +5725,7 @@
     .idea-inner-content {
         padding-right: .5rem;
         padding-left: .5rem;
+        gap: 3rem;
     }
 
     .idea-main-conten {
@@ -5844,6 +5845,10 @@
     .ul2-container-btn {
         justify-content: flex-end;
         padding: 2rem 0;
+    }
+
+    .idea-end-a {
+        margin-top: 0;
     }
 
 
