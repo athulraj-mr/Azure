@@ -5851,6 +5851,114 @@
         margin-top: 0;
     }
 
+    .tools {
+        padding-top: 6rem;
+        padding-bottom: 6rem;
+    }
+
+    .tools-container {
+        max-width: 100vw;
+        padding-right: 3.5rem;
+        padding-left: 3.5rem;
+    }
+
+    .tools-head-headings2 h2 {
+        font-family: segoe;
+        font-size: 2.5rem;
+        line-height: 3rem;
+        letter-spacing: -.025em;
+    }
+
+    .tools-head-headings1 {
+        margin: 0 0 0.5rem;
+    }
+
+    .tools-content {
+        margin-top: 3rem;
+        margin-left: -.5rem;
+    }
+
+    .tools-content-container {
+        padding-right: .5rem;
+        padding-left: .5rem;
+    }
+
+    .tools-scroll-container {
+        width: 828px;
+    }
+
+    .tools-scroll-btn1 {
+        padding: .5rem 1.5rem;
+    }
+
+    .tools-scroll-btn2 {
+        padding: .5rem 1.5rem;
+    }
+
+    .tools-content-macro2 {
+        margin-left: -.5rem;
+        margin-right: -.5rem;
+    }
+
+    .tools-main-content {
+        padding-right: .5rem;
+        padding-left: .5rem;
+    }
+
+    .tools-main-inner-content {
+        margin: 3rem 0 0 0;
+    }
+
+    .tools-main-content-micro {
+        row-gap: 1rem;
+        margin-right: -.5rem;
+        margin-left: -.5rem;
+    }
+
+    .tools-main-content-micro1 {
+        padding-right: .5rem;
+        padding-left: .5rem;
+    }
+
+    .tools-main-top {
+        border-radius: 1.5rem;
+    }
+
+    .tools-pic img {
+        border-radius: 1.5rem;
+    }
+
+    .tools-main-top-container2 {
+        padding: 1.5rem;
+    }
+
+    .tools-main-top-container2-div1 {
+        height: auto;
+    }
+
+    .tools-main-top-macro {
+        border-radius: 1.5rem;
+    }
+
+    .tools-main-top-content {
+        gap: 1rem;
+    }
+
+    .tools-main-top-para {
+        gap: 1rem;
+    }
+
+    .tools-main-para-btn {
+        gap: 1rem;
+    }
+
+    .tools-main-para-btn-container {
+        flex-direction: row;
+    }
+
+    .tools-main-para-btn-a {
+        padding: .5rem 1rem;
+    }
 
 
 
