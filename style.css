@@ -6064,8 +6064,133 @@
         display: block;
     }
 
-    
+    .role-top-outer {
+        max-width: 100vw;
+        padding: 0 3.5rem;
+    }
 
+    .role-top-inner {
+        margin: 0 -.5rem;
+        margin-bottom: 52px;
+    }
+
+    .role-top-inner-container {
+        padding: 0 .5rem;
+    }
+
+    .role-top-inner2 {
+        margin-bottom: 2rem;
+        margin-top: 0;
+        padding-top: 4.5rem;
+        margin-inline: auto;
+        width: calc(83.33333%);
+    }
+
+    .role-top-heading2 h2 {
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+
+    .role-top-heading1 {
+        margin-bottom: .5rem;
+    }
+
+    .role-bottom-total {
+        padding: 0 3.5rem;
+    }
+
+    .role-scroll-a1 {
+        border-top-left-radius: 1rem;
+        border-bottom-left-radius: 1rem;
+    }
+
+    .role-scroll-a-inner1 {
+        padding: 1.5rem;
+        padding-top: 1rem;
+        border-top-left-radius: 1rem;
+        border-bottom-left-radius: 1rem;
+    }
+
+    .role-scroll-a-inner {
+        padding: 1.5rem;
+        padding-top: 1rem;
+    }
+
+    .role-scroll-a2 {
+        border-top-right-radius: 1rem;
+        border-bottom-right-radius: 1rem;
+    }
+
+    .role-scroll-a-inner2 {
+        border-top-right-radius: 1rem;
+        border-bottom-right-radius: 1rem;
+        padding: 1.5rem;
+        padding-top: 1rem;
+    }
+
+    .role-arrows {
+        padding: 0;
+        margin: 0;
+        position: unset;
+    }
+
+    .role-arrow-btn1 {
+        display: none;
+    }
+
+    .role-arrows-bottom1 {
+        display: none;
+    }
+
+    .role-arrow-btn2 {
+        left: initial;
+        background: linear-gradient(270deg, #f4fafd 25%, rgba(242, 242, 242, 0) 100%);
+        right: -.25rem;
+        top: 22px;
+    }
+
+    .role-arrows-bottom2 {
+        left: initial;
+        border-radius: 0;
+        z-index: 1;
+        width: 20vw;
+        border: none;
+        margin-top: .5rem;
+        height: 100%;
+        max-height: 64px;
+        right: -.25rem;
+        background: linear-gradient(270deg, #f4fafd 25%, rgba(242, 242, 242, 0) 100%);
+        padding: 0;
+        align-items: center;
+        display: initial;
+        color: #000;
+        position: absolute;
+        top: 0;
+    }
+
+    .role-arrow-btn2::after {
+        display: inline-block;
+        transform: rotate(180deg);
+    }
+
+    .role-panel {
+        padding-top: 2rem;
+        padding-bottom: 4.5rem;
+    }
+
+    .role-panel-inner1 {
+        margin-inline: auto;
+        width: calc(83.33333%);
+        gap: 1rem;
+    }
+
+    .role-panel-inner2 {
+        padding: 1.5rem;
+        width: 66.667%;
+        margin: auto;
+        margin-top: 2rem;
+        border-radius: 1.5rem;
+    }
 
 
 }
