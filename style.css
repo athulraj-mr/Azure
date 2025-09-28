@@ -6958,17 +6958,40 @@
 
 @media screen and (min-width: 1200px) {
 
-    
-
     .data-container {
         width: 99%;
         max-width: 100vw;
     }
 
-    .container {
+    .discover-news {
         width: 99%;
         max-width: 100vw;
     }
+
+    .idea-container {
+        width: 99%;
+    }
+
+    .tools-container {
+        width: 99%;
+    }
+
+    .gartner-conatiner2 {
+        width: 99%;
+    }
+
+    .see-container1 {
+        width: 99%;
+    }
+
+    .step-container {
+        width: 99%;
+    }
+
+    .logos-out {
+        width: 99%;
+    }
+
 
 }
 
@@ -6988,4 +7011,136 @@
         max-width: 100vw;
     }
         
+}
+
+@media screen and (min-width: 1300px) {
+
+    .data-container {
+        width: 99%;
+        max-width: 100vw;
+    }
+
+    .discover-news {
+        width: 99%;
+        max-width: 100vw;
+    }
+
+    .idea-container {
+        width: 99%;
+    }
+
+    .tools-container {
+        width: 99%;
+    }
+
+    .gartner-conatiner2 {
+        width: 99%;
+    }
+
+    .see-container1 {
+        width: 99%;
+    }
+
+    .step-container {
+        width: 99%;
+    }
+
+    .logos-out {
+        width: 99%;
+    }
+
+}
+
+@media screen and (min-width: 1433px) {
+
+    .s-nav-in-nav-ul li:nth-child(5) {
+        display: inline-block;
+    }
+
+}
+
+@media screen and (min-width: 1440px) {
+
+    .data-container {
+        padding: 0 5%;
+        width: 100%;
+    }
+
+    .data-heading-inner h1 {
+        font-size: 3.875rem;
+        line-height: 4.5rem;
+    }
+
+    .s-news-nav {
+        padding: 0 5%;
+        width: 100%;
+    }
+
+    .discover-news {
+        padding: 0 5%;
+        width: 100%;
+    }
+
+    .discover-heading2 h2 {
+        font-size: 3rem;
+        line-height: 3.5rem;
+    }
+
+    .s-dis-card-text-in h3 span {
+        font-size: 1.25rem;
+        line-height: 1.75rem;
+    }
+
+    .discover-heading1 {
+        margin-bottom: .5rem;
+    }
+
+    .idea-container {
+        padding: 0 5%;
+        width: 100%;
+    }
+
+    .idea-head-heading2 h2 {
+        font-size: 3rem;
+        line-height: 3.5rem;
+    }
+
+    .idea-ul1-head-btn h3 span {
+        font-size: 1.25rem;
+        line-height: 1.75rem;
+    }
+    
+    .ul2-container h3 span {
+        font-size: 1.25rem;
+        line-height: 1.75rem;
+    }
+
+    .tools-container {
+        padding: 0 5%;
+        width: 100%;
+    }
+
+    .tools-head-headings2 h2 {
+        font-size: 3rem;
+        line-height: 3.5rem;
+    }
+
+    .tools-main-content-micro {
+        flex-direction: row;
+    }
+
+    .tools-main-content-micro1 {
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+
+    .card {
+        flex: 0 0 75%;
+        max-width: 75%;
+    }
+
+    .card-model-container {
+        border-radius: 1.5rem;
+    }
+
 }
