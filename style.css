@@ -7143,4 +7143,82 @@
         border-radius: 1.5rem;
     }
 
+    .card-container {
+        height: auto;
+    }
+
+    .card-heading-container h4 span {
+        font-size: 1.25rem;
+        line-height: 1.75rem;
+    }
+
+    .tools-main-top-head-macro2 h3 {
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+
+    .gartner-heading-text h2 span {
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+
+    .gartner-conatiner2 {
+        padding: 0 5%;
+        width: 100%;
+    }
+
+    .gartner-text-text-inner {
+        line-height: 2rem;
+    }
+
+    .role-bottom-total {
+        padding: 0;
+        width: 100%;
+    }
+
+    .role-top-heading2 h2 {
+        font-size: 3rem;
+        line-height: 3.5rem;
+    }
+
+    .global-heading h2 {
+        font-size: 3rem;
+        line-height: 3.5rem;
+    }
+
+    .see-container1 {
+        padding: 0 5%;
+        width: 100%;
+    }
+
+    .see-macro2 h2 {
+        font-size: 3rem;
+        line-height: 3.5rem;
+    }
+
+    .see-scroll-end-text span {
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+
+    .step-container {
+        padding: 0 5%;
+        width: 100%;
+    }
+
+    .step-inner h2 {
+        font-size: 3rem;
+        line-height: 3.5rem;
+    }
+
+    .step-card-macro-in h3 span {
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+
+    .logos-out {
+        padding: 1.5rem 5%;
+        width: 100%;
+    }
+
 }
